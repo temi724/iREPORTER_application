@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="styles/form.css">
     <link rel="stylesheet" type="text/css" href="styles/modal.css">
 
+
 </head>
 
 <body>
@@ -20,77 +21,46 @@
             <div class="class contains">
                 <p class="iReporter-about">Have you noticed any form of corruption around you?</p>
                 <p class="iReporter-about">Why wait when you can login up and be heard?</p>
-                <!-- <p>The iReporter platform takes your report</p> -->
-
-                <!-- <h2>Login Form</h2> -->
-
-                <form action="/action_page.php">
+                <form action="views/user_home.html">
                     <div class="imgcontainer">
                         <img src="images/icons8-customer-100.png" alt="Avatar" class="avatar">
                     </div>
-
                     <div class="container">
                         <label for="uname"><b>Username</b></label>
                         <input type="text" placeholder="Enter Username" name="uname" required>
-
                         <label for="psw"><b>Password</b></label>
                         <input type="password" placeholder="Enter Password" name="psw" required>
 
                         <button type="submit">Login</button>
                         <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
+                     <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
                     </div>
-
                     <div class="container" style="background-color:#f1f1f1">
                         <button type="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="cancelbtn">Sign up</button>
-                        <!-- <span class="psw">Forgot <a href="#">password?</a></span> -->
                     </div>
                 </form>
-
-                <!-- <button class="button login_button" onclick=" document.getElementById( 'id01').style.display='block' ">Login</button></br>
-                <button class=" button signup_button ">Signup</button> -->
             </div>
         </div>
-
-
-
-
-
-
         <div id="id01" class="modal">
-            <form class="modal-content animate" action="/action_page.php">
-                <div class="imgcontainer">
-                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                    <img src="img_avatar2.png" alt="Avatar" class="avatar">
-                </div>
-
+            <form class="modal-content animate" action="views/user_home.html">
                 <div class="container">
                     <label for="First Name"><b>First Name</b></label>
                     <input type="text" placeholder="First Name" name="uname" required>
-
                     <label for="Last Name"><b>Last Name</b></label>
                     <input type="text" placeholder="Last Name" name="uEmail" required>
 
                     <label for="Email"><b>Email</b></label>
                     <input type="text" placeholder="sample@email.com" name="uEmail" required>
-
-
-
                     <button type="submit">Signup</button>
-
                 </div>
-
                 <div class="container" style="background-color:#f1f1f1">
                     <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
                 </div>
             </form>
         </div>
-
     </div>
     <!--Loin modal here  -->
-
-
 </body>
 <script src="scripts/modal.js"></script>
 

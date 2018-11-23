@@ -1,0 +1,276 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background: #D9372B;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    color: #D9372B;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p,
+ul,
+ol {
+    margin-top: 0;
+    line-height: 240%;
+    text-align: justify;
+    color: black;
+}
+
+a {
+    color: #98CA2E;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+hr {
+    display: none;
+}
+
+#header {
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#menu {
+    float: left;
+    width: 600px;
+    height: 60px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    line-height: normal;
+}
+
+#menu li {
+    display: block;
+    float: left;
+}
+
+#menu a {
+    display: block;
+    float: left;
+    height: 32px;
+    padding: 12px 20px 0px 20px;
+    letter-spacing: -1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+form {
+    max-width: 100%;
+    margin-right: 9%;
+    margin-left: 9%;
+}
+
+textarea,
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #D9372B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+
+/* Page */
+
+#page {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 20px 0px 20px;
+}
+
+
+/* Content */
+
+#content {
+    float: left;
+    width: 620px;
+}
+
+
+/* Post */
+
+.post {
+    width: 620px;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    background: #FFFFFF;
+}
+
+.post .title {
+    height: 44px;
+    padding: 0px 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.post .title a {
+    letter-spacing: -1px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 30px;
+    color: #238EC6;
+}
+
+.post .meta span {
+    display: block;
+    margin-top: -10px;
+}
+
+.post .meta a {}
+
+.post .entry {
+    padding: 10px 20px;
+}
+
+.post .comments {
+    display: block;
+    width: 120px;
+    height: 18px;
+    margin: 0px;
+    padding: 3px 0px 0px 40px;
+    background: #90BF35;
+    border: 1px solid #5F817E;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+    float: right;
+    width: 280px;
+    font-size: 12px;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: normal;
+    border: none;
+}
+
+#sidebar li {
+    margin-bottom: 20px;
+    padding: 10px 0px 10px 0px;
+    background: #FFFFFF;
+}
+
+#sidebar li ul {
+    margin: 0px 0px;
+    border: none;
+}
+
+#sidebar li li {
+    margin: 0;
+    padding: 10px 0px;
+    border: none;
+}
+
+#sidebar li li a {
+    padding: 0px 0px 0px 30px;
+    font-weight: normal;
+    border: none;
+}
+
+#sidebar li li a:hover {
+    color: #666666;
+}
+
+#sidebar p {
+    margin: 0;
+    padding: 0px 14px;
+}
+
+#sidebar h2 {
+    height: 32px;
+    margin: 0 0 10px 0px;
+    padding: 8px 0 10px 20px;
+    background: url(images/img03.jpg) no-repeat left bottom;
+    text-transform: lowercase;
+    font-size: 24px;
+    font-weight: normal;
+    color: #238EC6;
+}
+
+#sidebar p {
+    line-height: 200%;
+}
+
+#sidebar a {
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    color: #666666;
+}
+
+
+/* Footer */
+
+#footer {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#footer-bgcontent {}
+
+#footer p {
+    margin: 0;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    line-height: normal;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #C7DAE5;
+}
