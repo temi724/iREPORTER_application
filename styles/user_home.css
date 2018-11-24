@@ -32,10 +32,6 @@ ol {
     color: black;
 }
 
-a {
-    color: #98CA2E;
-}
-
 a:hover {
     text-decoration: none;
 }
@@ -81,7 +77,7 @@ hr {
     letter-spacing: -1px;
     text-decoration: none;
     text-align: center;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -145,14 +141,14 @@ button {
     height: 44px;
     padding: 0px 20px;
     font-family: Georgia, "Times New Roman", Times, serif;
+    color: blue
 }
 
 .post .title a {
     letter-spacing: -1px;
     text-decoration: none;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #238EC6;
+    font-size: 20px;
+    color: blue
 }
 
 .post .meta span {
