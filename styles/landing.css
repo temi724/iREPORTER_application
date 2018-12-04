@@ -52,7 +52,7 @@ p {
     text-align: center;
 }
 
-#showcase .bg-image {
+#showcase .bg_image {
     position: absolute;
     background: url('../images/ireporterp.jpg');
     background-position: center;
@@ -77,7 +77,7 @@ p {
 
 /* Section A */
 
-#section-a {
+#section_a {
     background: #eaeaea;
     color: #333;
     padding-bottom: 2em;
@@ -86,30 +86,30 @@ p {
 
 /* Section B */
 
-#section-b {
+#section_b {
     padding: 2em 1em 1em;
 }
 
-#section-b ul {
+#section_b ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#section-b li {
+#section_b li {
     margin-bottom: 1em;
     background: #fff;
     color: #333;
 }
 
-.card-content {
+.card_content {
     padding: 1.5em;
 }
 
 
 /* Section C */
 
-#section-c {
+#section_c {
     background: #fff;
     color: #333;
     padding: 2em;
@@ -118,26 +118,26 @@ p {
 
 /* Section D / Boxes */
 
-#section-d .box {
+#section_d .box {
     padding: 2em;
     color: #fff;
 }
 
-#section-d .box:first-child {
+#section_d .box:first-child {
     background: #2690d4;
 }
 
 
 /* Footer */
 
-#main-footer {
+#main_footer {
     padding: 2em;
     background: #000;
     color: #fff;
     text-align: center;
 }
 
-#main-footer a {
+#main_footer a {
     color: #2690d4;
     text-decoration: none;
 }
@@ -150,26 +150,26 @@ p {
         display: grid;
         grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
     }
-    #section-a .content-text {
+    #section_a .content-text {
         columns: 2;
         column-gap: 2em;
     }
-    #section-a .content-text p {
+    #section_a .content-text p {
         padding-top: 0;
     }
     .content-wrap,
-    #section-b ul {
+    #section_b ul {
         grid-column: 2/4;
     }
     .box,
-    #main-footer div {
+    #main_footer div {
         grid-column: span 2;
     }
-    #section-b ul {
+    #section_b ul {
         display: flex;
         justify-content: space-around;
     }
-    #section-b li {
+    #section_b li {
         width: 31%;
     }
 }
