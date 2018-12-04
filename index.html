@@ -1,68 +1,97 @@
-<!DOCTYPE html>
 <html>
-<title>index</title>
+<link rel="stylesheet" href="styles/landing.css">
+<link rel="stylesheet" href="styles/modal.css">
+<header id="showcase" class="grid">
+    <div class="bg_image"></div>
+    <div class="content-wrap">
+        <h1>Welcome to IREPORTER</h1>
+        <a href="./views/login.html" class="btn">Sign in</a>
+        <p>Don't have an accont?
+            <a href="./views/login.html" style="color:red"> <u>Signup here</u></a>
+        </p>
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/loginstyle.css">
-    <link rel="stylesheet" type="text/css" href="styles/form.css">
-    <link rel="stylesheet" type="text/css" href="styles/modal.css">
-
-
-</head>
+    </div>
+</header>
 
 <body>
-    <div class="row">
-        <div class="iReporter-6 information">
-            <div class="class contains">
-                <img src="images/iReport.jpg" alt="iReporter image" />
+    <main id="main">
+        <!-- Section A -->
+        <section id="section_a" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">Have you noticed any form of corruption?</h2>
+                <p>Why wait when you can use IREPORTER and be heared?</p>
             </div>
-        </div>
-        <div class="iReporter-6 signin padded">
-            <div class="class contains">
-                <p class="iReporter-about">Have you noticed any form of corruption around you?</p>
-                <p class="iReporter-about">Why wait when you can login and be heard?</p>
-                <form action="views/user_home.html">
-                    <div class="imgcontainer">
-                        <img src="images/icons8-customer-100.png" alt="Avatar" class="avatar">
-                    </div>
-                    <div class="container">
-                        <label for="uname"><b>Username</b></label>
-                        <input type="text" placeholder="Enter Username" name="uname" required>
-                        <label for="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="psw" required>
+        </section>
 
-                        <button type="submit">Login</button>
-                        <label>
-                     <input type="checkbox" checked="checked" name="remember"> Remember me
-                    </label>
+        <!-- Section B -->
+        <section id="section_b" class="grid">
+            <ul>
+                <li>
+                    <div class="card">
+                        <img src="images/african-man.jpg" alt="speaker">
+                        <div class="card-content">
+                            <h3 class="card-title">Your Voice</h3>
+                            <p>IREPORTER Acts as your voice to the Government. We make sure you are heared
+
+                            </p>
+                        </div>
                     </div>
-                    <div class="container" style="background-color:#f1f1f1">
-                        <button type="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="cancelbtn">Sign up</button>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="images/Platform-Networks-EdTech-.jpg" height="40px" alt="platform">
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                Your Platform
+                            </h3>
+
+                            <p>
+                                Here you have an opportunity to express your feelings and tell us your pain
+                            </p>
+                        </div>
                     </div>
-                </form>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="images/f2d623edb45d702133a3ede4a9095282e3b2ce94.jpg" alt="solution">
+                        <div class="card-content">
+                            <h3 class="card-title">Your Solution</h3>
+                            <p>
+                                We don't just read your reports. Our solution team verifies and make sure the right ears hear them
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Section C -->
+        <section id="section_c" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">We Communicate your mind to the Government</h2>
+                <p></p>
             </div>
-        </div>
-        <div id="id01" class="modal">
-            <form class="modal-content animate" action="views/user_home.html">
-                <div class="container">
-                    <label for="First Name"><b>First Name</b></label>
-                    <input type="text" placeholder="First Name" name="uname" required>
-                    <label for="Last Name"><b>Last Name</b></label>
-                    <input type="text" placeholder="Last Name" name="uEmail" required>
+        </section>
+        <section id="" class="grid">
+            <div class="content-wrap">
 
-                    <label for="Email"><b>Email</b></label>
-                    <input type="text" placeholder="sample@email.com" name="uEmail" required>
-                    <button type="submit">Signup</button>
-                </div>
-                <div class="container" style="background-color:#f1f1f1">
-                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                </div>
-            </form>
-        </div>
-    </div>
-    <!--Loin modal here  -->
+            </div>
+        </section>
+    </main>
+
 </body>
-<script src="scripts/modal.js"></script>
+<footer class="footer">
+    <p>
+        Copyright &copy;
+        <script>
+            document.write(new Date().getFullYear());
+        </script>
+    </p>
+</footer>
 
 </html>
+
+
+<!-- Main Area -->
+
+<!-- Footer -->
