@@ -163,7 +163,9 @@ footer {
         width: 100%;
     }
     .footer {
-        position: fixed;
-        width: initial;
+        clear: both;
+        position: relative;
+        height: 40px;
+        margin-top: -40px;
     }
 }
