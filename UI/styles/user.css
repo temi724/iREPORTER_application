@@ -158,6 +158,11 @@ img {
     padding: 3rem;
 }
 
+.info a:hover {
+    background: #333;
+    color: brown
+}
+
 
 /* Portfolio */
 
@@ -211,3 +216,5 @@ footer {
         grid-template-areas: 'showcase' 'top-box-a' 'top-box-b';
     }
 }
+
+;
