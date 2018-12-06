@@ -1,0 +1,22 @@
+{
+    "name": "ireporter_application",
+    "version": "1.0.0",
+    "description": "The application can be viewed at https://temi724.github.io/iREPORTER_application/",
+    "main": "index.js",
+    "scripts": {
+        "gh-deploy": "gh-pages -d UI"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/temi724/iREPORTER_application.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/temi724/iREPORTER_application/issues"
+    },
+    "homepage": "https://github.com/temi724/iREPORTER_application#readme",
+    "devDependencies": {
+        "gh-pages": "^2.0.1"
+    }
+}
